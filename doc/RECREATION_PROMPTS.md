@@ -6,6 +6,12 @@
 **Target Platform:** PC/Editor
 
 ## Core Requirements:
+### 0. ECS
+- Use ECS for terrain and road management
+- Use DOTS for performance
+- Use Unity 6
+- I want to use this in ECS Subscene as auto generated map. so it can be generated and saved and loaded.
+- when starting new game, several maps are generated and saved. and scene loader loads one of them to subscene. and the data can interact with player and enemies.
 
 ### 1. Road Painting System
 - Create `RoadPainter.cs` script that:
